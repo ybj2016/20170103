@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milky_white">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="60.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="0"
+                    android:stretchColumns="0"
+                    android:visibility="gone">
+
+                    <TableRow
+                        android:id="@+id/row0"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="true"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="8.0dip">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="XXXXXX"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="right"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@mipmap/ic_arrow" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="4.0dip"
+                android:text="我的设置"
+                android:textColor="#ff888888"
+                android:textSize="16.0sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="1.0dip"
+                    android:shrinkColumns="0"
+                    android:stretchColumns="0">
+
+                    <TableRow
+                        android:id="@+id/row1"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="true"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="账号管理"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="right"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@mipmap/ic_arrow" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/row2"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="true"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="XXXXXX"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="right"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@mipmap/ic_arrow" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/row3"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="true"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="XXXXXX"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="right"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@mipmap/ic_arrow" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="4.0dip"
+                android:text="客户端"
+                android:textColor="#ff888888"
+                android:textSize="16.0sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="1.0dip"
+                    android:shrinkColumns="0"
+                    android:stretchColumns="0">
+
+                    <TableRow
+                        android:id="@+id/row4"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="true"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/SettingActivity_setting"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="right"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@mipmap/ic_arrow" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/row5"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="false"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/SettingActivity_track"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" /><!--意见反馈-->
+
+                        <Switch
+                            android:id="@+id/switchLoc"
+                            style="@style/locSwitch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="20.0dip"
+                            android:textColor="@color/hx_green" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/rowTrackHistory"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="true"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/SettingActivity_track_history"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" /><!--检测更新-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="right"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@mipmap/ic_arrow" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/row7"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="true"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/app_name"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="right"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@mipmap/ic_arrow" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="1.0dip"
+                    android:shrinkColumns="0"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/tablerow_item"
+                        android:clickable="false"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="图层透明度"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <SeekBar
+                            android:id="@+id/sbLayoutTransparency"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:max="100" />
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

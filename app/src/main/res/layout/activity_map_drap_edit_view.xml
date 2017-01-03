@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <com.grandtech.map.view.dropEditText.DropEditText
+        android:id="@+id/dropEditTextAttrs"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        apps:drawableRight="@drawable/drop"
+        apps:dropMode="flow_parent"
+        apps:dropHeight="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

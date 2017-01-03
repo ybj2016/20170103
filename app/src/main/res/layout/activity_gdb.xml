@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_gdb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hx_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左上点坐标"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="x:"
+                android:textColor="@color/black" />
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:text="39154528.511500"
+                android:textColor="@color/black"
+                android:textSize="12.0sp"
+                android:id="@+id/etpoint1_x"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="y:"
+                android:textColor="@color/black" />
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:text="3725698.837800"
+                android:textColor="@color/black"
+                android:textSize="12.0sp"
+                android:id="@+id/etpoint1_y"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="右下点坐标"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="x:"
+                android:textColor="@color/black"/>
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:text="39166561.450700"
+                android:textColor="@color/black"
+                android:textSize="12.0sp"
+                android:id="@+id/etpoint3_x"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="y:"
+                android:textColor="@color/black" />
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:text="3716683.530600"
+                android:textColor="@color/black"
+                android:textSize="12.0sp"
+                android:id="@+id/etpoint3_y"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/com_btn_style"
+            android:text="下载"
+            android:id="@+id/btnload"/>
+    </LinearLayout>
+
+</LinearLayout>

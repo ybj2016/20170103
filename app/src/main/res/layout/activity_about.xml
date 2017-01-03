@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milky_white">
+    <!-- 引入app的title  RelativeLayout布局用来限制高度 -->
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_title_height">
+
+        <include layout="@layout/main_title" />
+
+        <ImageView
+            android:id="@+id/img_about_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/one_level_cancel" />
+    </RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">"
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/grandtech" />
+
+        <TextView
+            android:id="@+id/tvVision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="软件版本号:   	V 1 . 0"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="版权所有:  北京世纪国源科技股份有限公司"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="技术支持:  北京世纪国源科技股份有限公司"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</LinearLayout>

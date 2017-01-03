@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">国源农业</string>
+
+
+    <!--AccountActivity-->
+    <string name="AccountActivity_tvCollectName">调查人</string>
+    <string name="AccountActivity_btnSure">确定</string>
+
+    <!--SettingActivity-->
+    <string name="SettingActivity_setting">设置</string>
+    <string name="SettingActivity_track">轨迹定位</string>
+    <string name="SettingActivity_track_history">历史轨迹</string>
+</resources>

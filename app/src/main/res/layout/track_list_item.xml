@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tablerow_item"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <CheckBox
+        android:id="@+id/cbTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/milky_white"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="轨迹名称:"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvTrackName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="测试轨迹"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="点数:"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tvTrackCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tvLocating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="正在定位..."
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="开始时间:"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tvTrackStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2016-03-03 11:48:50"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="结束时间:"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tvTrackEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2016-03-03 11:48:50"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

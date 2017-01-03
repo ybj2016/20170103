@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_track"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milky_white">
+
+    <ListView
+        android:id="@+id/lvTrackHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/black"
+        android:dividerHeight="1px" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="checkBtnSrc">
+        <attr name="src" format="string"/>
+        <attr name="src_c" format="string"/>
+        <attr name="lock_able" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DropEditText">
+        <attr name="drawableRight" format="string" />
+        <attr name="dropHeight" format="dimension"/>
+        <attr name="dropMode">
+            <enum name="flow_parent" value="0" />
+            <enum name="wrap_content" value="1" />
+        </attr>
+        <attr name="hint" format="string|reference" />
+    </declare-styleable>
+
+</resources>

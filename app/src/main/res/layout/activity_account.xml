@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milky_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/tablerow_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="手机号"
+                android:textColor="@color/black" />
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:id="@+id/cetPhoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:textColor="@color/black"
+                android:enabled="false"
+                android:textSize="12.0sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="@string/AccountActivity_tvCollectName"
+                android:textColor="@color/black" />
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:background="@drawable/edit_text_bg"
+                android:textColor="@color/black"
+                android:textSize="12.0sp"
+                android:id="@+id/cetCollectName"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="登录时间"
+                android:textColor="@color/black" />
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/cetDateTime"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:textColor="@color/black"
+                android:enabled="false"
+                android:textSize="12.0sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="账号状态"
+                android:enabled="false"
+                android:textColor="@color/black" />
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/ctvAccountState"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:background="@drawable/edit_text_bg"
+                android:textColor="@color/black"
+                android:textSize="12.0sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical|right"
+                android:text="登录状态"
+                android:textColor="@color/black" />
+
+            <com.grandtech.map.view.other.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/cetLoginState"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:textColor="@color/black"
+                android:enabled="false"
+                android:textSize="12.0sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:visibility="gone">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/AccountActivity_btnSure"
+            android:id="@+id/btnSure"
+            style="@style/com_btn_style"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
